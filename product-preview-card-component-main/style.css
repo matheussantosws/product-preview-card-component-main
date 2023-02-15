@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    padding: 10px;
+    background-color:hsl(30, 38%, 92%);
+}
+.container-card{
+    padding: 10px;
+    background-color:hsl(0, 0%, 100%);
+}
+
+h5 {
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    color:  hsl(228, 12%, 48%);
+    padding: 5% 0% 5% 0%;
+
+}
+p {
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+}
+
+.valores {
+    display: flex;
+    padding: 5% 0% 5% 0%;
+}
+
+.v {
+    color:hsl(158, 36%, 37%); 
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.f {
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 8%;
+}
+
+.perfume {
+	border-radius: 10px 10px 0px 0px;
+    width: 100%;
+}
+
+.nome{
+    padding: 0% 0% 5% 0%;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*PROPRIEDADES DO BOTÃO*/
+.btn-personalize {
+    display: flex;
+    justify-content: center;
+    padding: 5% 0% 5% 0%;
+}
+
+button {
+
+    display: flex;
+    align-items: center;
+	border-radius: 10px 10px 10px 10px;
+    background-color:hsl(158, 61%, 25%);
+    border: none;
+    padding: 10px 100px;
+}
+button:hover{
+    color:white;
+    background-color: hsl(158, 96%, 18%);
+}
+
+.btn-color {
+    color:hsl(0, 0%, 100%);
+}
+
+svg {
+    padding: 10px;
+}
+
+
+/*PROPRIEDADES RESPONSIVAS*/
+
+@media (max-width: 320px) {
+        .container {
+            background-color: aqua;
+        }
+   }
