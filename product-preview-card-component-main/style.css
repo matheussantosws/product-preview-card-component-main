@@ -86,10 +86,24 @@ svg {
 }
 
 
-/*PROPRIEDADES RESPONSIVAS*/
+/*PROPRIEDADES RESPONSIVAS DESKTOP*/
 
-@media (max-width: 320px) {
-        .container {
-            background-color: aqua;
-        }
-   }
+@media (min-width: 1024px) {
+    .container {
+        background-color:hsl(221, 81%, 50%);
+    }
+    .container-card {
+        display: flex;
+        background-color: red;
+        width: 80%;
+        align-items: center;
+    }
+    .card-img{
+        background-color: pink;
+    }
+    
+    .card-info{
+        
+        background-color: rgb(186, 224, 15);
+    }
+}
