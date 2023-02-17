@@ -2,10 +2,12 @@
     margin: 0;
     padding: 0;
 }
+
 .container {
     padding: 10px;
     background-color:hsl(30, 38%, 92%);
 }
+
 .container-card{
     padding: 10px;
     background-color:hsl(0, 0%, 100%);
@@ -19,6 +21,7 @@ h5 {
     padding: 5% 0% 5% 0%;
 
 }
+
 p {
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
@@ -50,11 +53,11 @@ p {
     width: 100%;
 }
 
-.perfume-desktop{
+.perfume-desktop {
     display: none;
 }
 
-.nome{
+.nome {
     padding: 0% 0% 5% 0%;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
@@ -76,7 +79,8 @@ button {
     border: none;
     padding: 10px 100px;
 }
-button:hover{
+
+button:hover {
     color:white;
     background-color: hsl(158, 96%, 18%);
 }
@@ -101,29 +105,33 @@ svg {
         height: 100vh;
         background-color:hsl(30, 38%, 92%);
     }
+
     .container-card {
         display: flex;
         align-items: center;
         width: 60%;
         height: 80%;
+        background-color:hsl(30, 38%, 92%);
     }
-    .card-foto{
-        width: 50%;
-        height: 100%;
-        border-radius: 5% 0% 0% 5%;
-        background-image: url(images/banner.jpg);
-    }
-    .perfume{ /*Não aparecer a imagem mobile*/
+       
+    .perfume { /*Não aparecer a imagem mobile*/
         display: none;
     }
 
+    .perfume-desktop {
+        width: 50%;
+        height: 402px;
+        border-radius: 5% 0% 0% 5%;
+        display:block;
+        background-image: url(images/image-product-desktop.jpg);
+    }
+    
     .card-geral-info {
         width: 50%;
         padding: 3%;
+        background-color: white;
+        border-radius: 0% 5% 5% 0%;
+
     }
     
-    .card-info{
-        
-        background-color: rgb(186, 224, 15);
-    }
 }
