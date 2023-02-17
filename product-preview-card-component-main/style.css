@@ -99,7 +99,7 @@ svg {
         justify-content: center;
         width: 100%;
         height: 100vh;
-        background-color:hsl(221, 81%, 50%);
+        background-color:hsl(30, 38%, 92%);
     }
     .container-card {
         display: flex;
@@ -110,12 +110,11 @@ svg {
     .card-foto{
         width: 50%;
         height: 100%;
-        
         border-radius: 5% 0% 0% 5%;
+        background-image: url(images/banner.jpg);
     }
-    .perfume{ /*medidas da img - preencher a div card foto*/
-        display: none;             
-        
+    .perfume{ /*Não aparecer a imagem mobile*/
+        display: none;
     }
 
     .card-geral-info {
