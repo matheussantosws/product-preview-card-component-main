@@ -136,3 +136,9 @@ svg {
     
 }
 
+@media (min-width: 1025px) {
+    .container-card {
+        width: 100vh;
+    }
+
+} 
